@@ -1,0 +1,229 @@
+body {
+    overflow-x: hidden;
+    /* background-color: black; */
+    font-family: "Quicksand", sans-serif;
+}
+.mainContainer {
+    width: 100vw;
+}
+.grindContainer {
+    display: grid;
+    grid-template-columns: 3fr, 3fr;
+    grid-template-rows: 3fr, 3fr;
+}
+#networkName {
+    text-align: center;
+}
+.profilePic {
+    border-radius: 10px;
+    height: 78px;
+    width: 78px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.chatImg {
+    padding: 5px 0 0 5px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+.scroll {
+    overflow-y: auto;
+    max-height: 600px;
+}
+.chatContainer {
+    border: 1px solid black;
+    display: flex;
+    width: 30%;
+    min-height: 150px;
+}
+.chatBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.txtChat {
+    margin-top: 20px;
+}
+.inputField {
+    margin: 0 auto;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.search {
+    display: inline;
+}
+
+input {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.input {
+    width: 10%;
+    position: relative;
+    right: 320px;
+}
+button {
+    text-align: center;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.headerContainer {
+    background-color: black;
+    border-bottom: 1px solid black;
+}
+
+.zucky {
+    height: 20%;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 20px;
+}
+.loggedInZucky {
+    border-radius: 10px;
+    height: 6%;
+    width: 6%;
+    padding-bottom: 10px;
+}
+.error {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.loginLink {
+    text-decoration: none;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+.modal {
+    color: white;
+    z-index: 100;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    width: 30%;
+    left: 35%;
+    height: 200px;
+    background: gray;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.bigPicture .profilePic {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 30px;
+    top: 20px;
+    object-fit: cover;
+    object-position: center;
+}
+.gridOther {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.friendImg {
+    width: 50%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.friendsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.friendsImgContainer {
+    margin-bottom: 20px;
+}
+.yolo .profilePic {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 30px;
+    top: 20px;
+    object-fit: cover;
+    object-position: center;
+}
+.friends {
+    text-align: center;
+}
+.buttonFriends {
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.bigPicture {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+}
+.textPic {
+    text-align: center;
+}
+.profileButton {
+    position: absolute;
+    width: 100px;
+}
+.txtarea {
+    position: absolute;
+    left: 457px;
+    top: 200px;
+}
+
+.bioText {
+    position: absolute;
+    left: 457px;
+    top: 140px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    right: 100px;
+}
+.headerElements {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.yo .lo {
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    width: 100px;
+}
+.chatChat {
+    display: flex;
+    flex-direction: column;
+}
+.tinyText {
+    font-size: 10px;
+}
+.addPad {
+    padding-left: 5px;
+}
+.lastcss {
+    margin-bottom: 20px;
+}
+.tinytxt {
+    font-size: 2px;
+    text-align: center;
+}
